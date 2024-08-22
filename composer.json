@@ -1,0 +1,39 @@
+{
+    "name": "threeam/threeam-inline-copypaste",
+    "type": "typo3-cms-extension",
+    "homepage": "https://3am-tech.com/",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "authors": [
+        {
+            "name": "Mohsin Khan",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "threeam_inline_copypaste"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Threeam\\ThreeamInlineCopypaste\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Threeam\\ThreeamInlineCopypaste\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "threeam/threeam-inline-copypaste": "self.version",
+        "typo3-ter/threeam-inline-copypaste": "self.version"
+    }
+}
