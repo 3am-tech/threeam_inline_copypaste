@@ -38,7 +38,3 @@ Contributions are welcome! If you would like to contribute, please fork the repo
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to modify the content according to your preferences!
